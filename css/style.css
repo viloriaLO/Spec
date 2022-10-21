@@ -1895,6 +1895,37 @@ h1, h2, h3, h4, h5,
     -o-transform: rotate(0deg);
 
   }
+  /* Conocenos fin */
+  /* Seccion Mas de spectralab */
+  .boxMasSpectralab{
+    border-radius: 30px;
+    box-shadow: 6px 9px 16px -6px rgba(0,0,0,0.75);
+-webkit-box-shadow: 6px 9px 16px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 9px 16px -6px rgba(0,0,0,0.75);
+    transition: all .5s ease;
+  }
+  .boxMasSpectralab:hover{
+    box-shadow: 6px 9px 16px -6px #e81050;
+-webkit-box-shadow: 6px 9px 16px -6px #e81050;
+-moz-box-shadow: 6px 9px 16px -6px #e81050;
+  }
+ 
+  .info i{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: all .5s ease;
+  }
+  .info i:hover{
+    transform: scale(1.2);
+  }
+  .info h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000;
+    font-weight: 400;
+    text-align: center;
+  }
+
   /* Sombredo en lo principal */
   .sombreado {
     text-shadow: 1px  0px 0px black,
