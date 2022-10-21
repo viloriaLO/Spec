@@ -1914,6 +1914,8 @@ h1, h2, h3, h4, h5,
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    color: #e81050;
+    font-size: 62px;
     transition: all .5s ease;
   }
   .info i:hover{
@@ -1925,6 +1927,22 @@ h1, h2, h3, h4, h5,
     font-weight: 400;
     text-align: center;
   }
+  /* Seccion Mas de spectralab */
+
+  /* Seccion Equipos */
+  .equiposCont{
+    transition: all .5 ease;
+  }
+  .equiposCont:hover{
+    box-shadow: 6px 9px 30px -9px rgba(116, 40, 40, 0.77);
+-webkit-box-shadow: 6px 9px 30px -9px rgba(116, 40, 40, 0.77);
+-moz-box-shadow: 6px 9px 30px -9px rgba(116, 40, 40, 0.77);
+  }
+  
+  .equiposCont img{
+    transition: all .5 ease;
+  }
+  /* Seccion Equipos */
 
   /* Sombredo en lo principal */
   .sombreado {
