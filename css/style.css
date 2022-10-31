@@ -4,7 +4,6 @@ body {
   color: gray;
   font-weight: 400;
   font-size: 1rem; 
-  width: ;
 }
 
 ::-moz-selection {
@@ -2087,15 +2086,11 @@ h1, h2, h3, h4, h5,
     }
   }
 
-  .botones-banner button{
-    position: fixed; 
+  .botones-banner a{
+    position: fixed;
     left: 70%; 
-    top: 85%; 
-    border-radius: 30px; 
-    border: 1px solid orange;
-    background: transparent;
-    justify-content: center;
-    text-align: center;
+    top: 85%;  
+    font-weight: bold;
   }
   .botones-banner i{
     color: #2881f5;
