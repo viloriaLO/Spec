@@ -151,7 +151,7 @@ h1, h2, h3, h4, h5,
       height: 50;
     }
     .site-footer {
-      padding: 8em 0; } }
+      padding: 3em 0; } }
   .site-footer .border-top {
     border-top: 1px solid rgba(255, 255, 255, 0.1) !important; }
   .site-footer p {
@@ -602,6 +602,10 @@ h1, h2, h3, h4, h5,
 /* Seccion conocenos */
 .sub_conocenos{
   text-align: center;
+}
+/* footer */
+button .boton-footer:hover{
+  color: #000;
 }
 /* Blocks */
 .site-blocks-cover {
