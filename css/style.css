@@ -1900,51 +1900,31 @@ button .boton-footer:hover{
   }
   /* Conocenos fin */
   /* Seccion Mas de spectralab */
-  .boxMasSpectralab{
-    border-radius: 30px;
-    box-shadow: 6px 9px 16px -6px rgba(0,0,0,0.75);
--webkit-box-shadow: 6px 9px 16px -6px rgba(0,0,0,0.75);
--moz-box-shadow: 6px 9px 16px -6px rgba(0,0,0,0.75);
-    transition: all .5s ease;
-  }
-  .boxMasSpectralab:hover{
-    box-shadow: 6px 9px 16px -6px #e81050;
--webkit-box-shadow: 6px 9px 16px -6px #e81050;
--moz-box-shadow: 6px 9px 16px -6px #e81050;
-  }
- 
-  .info i{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-    color: #e81050;
-    font-size: 62px;
-    transition: all .5s ease;
-  }
-  .info i:hover{
-    transform: scale(1.2);
-  }
-  .info h3{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #000;
-    font-weight: 400;
-    text-align: center;
-  }
+  
   /* Seccion Mas de spectralab */
 
   /* Seccion Equipos */
-  .equiposCont{
+  .team-member{
+    transition: all 1s ease;
+  }
+  .team-member:hover{
+    border: 2px solid #c70e44;
+  }
+  .equiposCont img{
+    transition: all 1.5s ease;
+  }
+  figure{
     transition: all .5 ease;
   }
-  .equiposCont:hover{
-    box-shadow: 6px 9px 30px -9px rgba(116, 40, 40, 0.77);
--webkit-box-shadow: 6px 9px 30px -9px rgba(116, 40, 40, 0.77);
--moz-box-shadow: 6px 9px 30px -9px rgba(116, 40, 40, 0.77);
+  .equiposCont img:hover{
+    transform: scale(1.2);
+  }
+  .team-member h3:hover{
+    color: #c70e44;
+    font-weight: bold;
   }
   
-  .equiposCont img{
-    transition: all .5 ease;
-  }
+  
   /* Seccion Equipos */
 
   /* Sombredo en lo principal */
